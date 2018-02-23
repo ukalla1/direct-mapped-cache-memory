@@ -1,0 +1,106 @@
+@(#)$CDS: LVS version 6.1.7-64b 09/27/2016 19:41 (sjfhw305) $
+
+Command line: /afs/umbc.edu/software/cadence/installs/IC617/tools.lnx86/dfII/bin/64bit/LVS -dir /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS -l -s -t /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS/layout /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS/layout/netlist
+       count
+        261             nets
+        21              terminals
+        304             pmos
+        304             nmos
+
+    Net-list summary for /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS/schematic/netlist
+       count
+        261             nets
+        21              terminals
+        304             pmos
+        304             nmos
+
+
+    Terminal correspondence points
+    N243      N1        gnd!
+    N259      N6        output<0>
+    N255      N7        output<1>
+    N252      N8        output<2>
+    N250      N9        output<3>
+    N241      N11       read_enable
+    N257      N10       reset
+    N260      N17       row_select<0>
+    N256      N16       row_select<1>
+    N254      N15       row_select<2>
+    N251      N14       row_select<3>
+    N249      N5        row_select<4>
+    N247      N4        row_select<5>
+    N246      N3        row_select<6>
+    N245      N2        row_select<7>
+    N244      N20       tag_in<0>
+    N240      N19       tag_in<1>
+    N258      N18       tag_in<2>
+    N253      N13       valid_in
+    N248      N0        vdd!
+    N242      N12       write_enable
+
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+                             layout  schematic
+                                instances
+        un-matched              0       0      
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  608     608    
+        total                   608     608    
+
+                                  nets
+        un-matched              0       0      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  261     261    
+        total                   261     261    
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          0       0      
+        total                   21      21     
+
+
+Probe files from /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:

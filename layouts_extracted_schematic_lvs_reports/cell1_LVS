@@ -1,0 +1,123 @@
+@(#)$CDS: LVS version 6.1.7-64b 09/27/2016 19:41 (sjfhw305) $
+
+Command line: /afs/umbc.edu/software/cadence/installs/IC617/tools.lnx86/dfII/bin/64bit/LVS -dir /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS -l -s -t /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS/layout /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS/layout/netlist
+       count
+        63              nets
+        22              terminals
+        57              pmos
+        57              nmos
+
+    Net-list summary for /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS/schematic/netlist
+       count
+        63              nets
+        22              terminals
+        57              pmos
+        57              nmos
+
+
+    Terminal correspondence points
+    N45       N13       column_select
+    N43       N1        gnd!
+    N46       N22       input<0>
+    N41       N21       input<1>
+    N61       N20       input<2>
+    N58       N19       input<3>
+    N56       N18       input<4>
+    N54       N17       input<5>
+    N51       N16       input<6>
+    N48       N15       input<7>
+    N62       N24       output<0>
+    N59       N23       output<1>
+    N57       N11       output<2>
+    N55       N10       output<3>
+    N52       N9        output<4>
+    N49       N8        output<5>
+    N47       N7        output<6>
+    N44       N6        output<7>
+    N53       N14       row_select
+    N60       N5        rs
+    N50       N0        vdd!
+    N42       N12       write_enable
+
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+                             layout  schematic
+                                instances
+        un-matched              0       0      
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  114     114    
+        total                   114     114    
+
+                                  nets
+        un-matched              0       0      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  63      63     
+        total                   63      63     
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          8       8      
+        total                   22      22     
+
+
+Probe files from /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+? Terminal output<0>'s type in the schematic: output, in the layout: input
+? Terminal output<1>'s type in the schematic: output, in the layout: input
+? Terminal output<2>'s type in the schematic: output, in the layout: input
+? Terminal output<3>'s type in the schematic: output, in the layout: input
+? Terminal output<4>'s type in the schematic: output, in the layout: input
+? Terminal output<5>'s type in the schematic: output, in the layout: input
+? Terminal output<6>'s type in the schematic: output, in the layout: input
+? Terminal output<7>'s type in the schematic: output, in the layout: input
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+? Terminal output<0>'s type in the layout: input, in the schematic: output
+? Terminal output<1>'s type in the layout: input, in the schematic: output
+? Terminal output<2>'s type in the layout: input, in the schematic: output
+? Terminal output<3>'s type in the layout: input, in the schematic: output
+? Terminal output<4>'s type in the layout: input, in the schematic: output
+? Terminal output<5>'s type in the layout: input, in the schematic: output
+? Terminal output<6>'s type in the layout: input, in the schematic: output
+? Terminal output<7>'s type in the layout: input, in the schematic: output
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:

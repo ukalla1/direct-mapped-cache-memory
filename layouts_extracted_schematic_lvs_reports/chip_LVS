@@ -1,0 +1,127 @@
+@(#)$CDS: LVS version 6.1.7-64b 09/27/2016 19:41 (sjfhw305) $
+
+Command line: /afs/umbc.edu/software/cadence/installs/IC617/tools.lnx86/dfII/bin/64bit/LVS -dir /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS -l -s -t /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS/layout /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules... 
+ 
+     Net-list summary for /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS/layout/netlist
+       count 
+        2253            nets 
+        40              terminals 
+        2858            pmos 
+        2858            nmos 
+ 
+    Net-list summary for /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS/schematic/netlist
+       count 
+        2253            nets 
+        40              terminals 
+        2858            pmos 
+        2858            nmos 
+ 
+ 
+    Terminal correspondence points 
+    N153      N14       busy 
+    N489      N92       clk 
+    N2072     N105      cpu_add<0> 
+    N1859     N25       cpu_add<1> 
+    N945      N106      cpu_add<2> 
+    N632      N87       cpu_add<3> 
+    N1102     N137      cpu_add<4> 
+    N874      N58       cpu_add<5> 
+    N707      N26       cpu_add<6> 
+    N2195     N83       cpu_add<7> 
+    N202      N68       cpu_data<0> 
+    N2186     N74       cpu_data<1> 
+    N1156     N51       cpu_data<2> 
+    N1355     N88       cpu_data<3> 
+    N229      N84       cpu_data<4> 
+    N775      N97       cpu_data<5> 
+    N389      N138      cpu_data<6> 
+    N323      N43       cpu_data<7> 
+    N531      N6        cpu_rd_wrn 
+    N1555     N1        gnd! 
+    N1595     N52       mem_add<0> 
+    N1070     N95       mem_add<1> 
+    N2042     N81       mem_add<2> 
+    N156      N17       mem_add<3> 
+    N687      N7        mem_add<4> 
+    N1269     N22       mem_add<5> 
+    N2001     N33       mem_add<6> 
+    N1791     N89       mem_add<7> 
+    N1591     N45       mem_data<0> 
+    N844      N30       mem_data<1> 
+    N843      N31       mem_data<2> 
+    N2051     N93       mem_data<3> 
+    N2178     N67       mem_data<4> 
+    N436      N38       mem_data<5>
+    N585      N48       mem_data<6> 
+    N1761     N59       mem_data<7> 
+    N178      N41       mem_en 
+    N1481     N78       reset 
+    N1691     N141      start 
+    N528      N0        vdd! 
+ 
+ Devices in the netlist but not in the rules:
+        pcapacitor
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+ 
+ The net-lists match. 
+ 
+                             layout  schematic 
+                                instances 
+        un-matched              0       0 
+        rewired                 0       0 
+        size errors             0       0 
+        pruned                  0       0 
+        active                  5716    5716 
+        total                   5716    5716 
+ 
+                                  nets 
+        un-matched              0       0 
+        merged                  0       0 
+        pruned                  0       0 
+        active                  2253    2253 
+        total                   2253    2253 
+ 
+                                terminals 
+        un-matched              0       0 
+        matched but 
+        different type          0       0 
+        total                   40      40 
+ 
+ 
+Probe files from /afs/umbc.edu/users/u/k/ukalla1/home/vlsi/LVS/schematic
+ 
+devbad.out: 
+ 
+netbad.out: 
+ 
+mergenet.out: 
+ 
+termbad.out: 
+ 
+prunenet.out: 
+ 
+prunedev.out: 
+ 
+audit.out: 
+ 
+ 
+Probe files from /afs/umbc.edu/users/t/c/tchetan1/home/cadence/LVS/layout 
+ 
+devbad.out: 
+ 
+netbad.out: 
+ 
+mergenet.out: 
+ 
+termbad.out: 
+ 
+prunenet.out: 
+ 
+prunedev.out: 
+ 
+audit.out:
